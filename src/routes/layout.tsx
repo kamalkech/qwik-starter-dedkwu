@@ -16,11 +16,9 @@ export default component$(() => {
   useStyles$(styles);
   return (
     <>
-      <Header />
       <main>
         <Slot />
       </main>
-      <Footer />
     </>
   );
 });
